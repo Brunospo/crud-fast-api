@@ -5,6 +5,9 @@ from sqlalchemy.ext.asyncio import (
 )
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class DbConnectionHandler:
     def __init__(self) -> None:
